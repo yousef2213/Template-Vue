@@ -1,7 +1,6 @@
 <template>
   <div class="row position-relative bg-main">
     <Hero />
-
     <div class="col-12 col-md-8 mx-auto mt-3">
       <Chart />
     </div>
