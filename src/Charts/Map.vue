@@ -20,7 +20,7 @@ export default {
     };
   },
   created() {
-    this.$getLocation({}).then((coordinates) => {
+    this.$getLocation({}).then(coordinates => {
       this.myCoordinates = coordinates;
     });
   }
