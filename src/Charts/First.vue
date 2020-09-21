@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="chart1">
-      <area-chart :data="datachart"  height="400px"></area-chart>
+      <area-chart :data="datachart" height="400px"></area-chart>
     </div>
   </div>
 </template>
@@ -17,10 +17,10 @@ export default {
         JAVA: 49.4,
         "TYPE SCRIPT": 67.0,
         JAVASCRIPT: 61.9,
-        "C#": 60.4,
-      },
+        "C#": 60.4
+      }
     };
-  },
+  }
 };
 </script>
 

@@ -22,10 +22,10 @@ export default {
         ["CSS", 55.1],
         ["HASHKELL", 53.0],
         ["JAVA", 49.4],
-        ["RUBY", 47.4],
-      ],
+        ["RUBY", 47.4]
+      ]
     };
-  },
+  }
 };
 </script>
 

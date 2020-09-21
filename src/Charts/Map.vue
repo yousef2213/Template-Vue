@@ -15,15 +15,15 @@ export default {
     return {
       myCoordinates: {
         lat: 0,
-        lng: 0,
-      },
+        lng: 0
+      }
     };
   },
   created() {
     this.$getLocation({}).then((coordinates) => {
       this.myCoordinates = coordinates;
     });
-  },
+  }
 };
 </script>
 

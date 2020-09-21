@@ -18,7 +18,7 @@ export default {
   name: "Layout",
   components: {
     Banner,
-    Navbar,
-  },
+    Navbar
+  }
 };
 </script>
