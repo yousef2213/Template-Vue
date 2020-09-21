@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-// import Profile from "../views/Profile.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -19,6 +18,21 @@ const routes = [
     path: "/Profile",
     name: "Profile",
     component: () => import("../views/Profile.vue")
+  },
+  {
+    path: "/maps",
+    name: "Maps",
+    component: () => import("../views/Maps.vue")
+  },
+  {
+    path: "/templates",
+    name: "Templates",
+    component: () => import("../views/Templates.vue")
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: () => import("../views/Contact.vue")
   }
 ];
 

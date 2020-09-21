@@ -12,9 +12,6 @@
         <router-link to="/Profile" class="link">user profile</router-link>
       </li>
       <li @click="Close()" class="py-4">
-        <router-link to="/maps" class="link">map</router-link>
-      </li>
-      <li @click="Close()" class="py-4">
         <router-link to="/templates" class="link">templates</router-link>
       </li>
       <li @click="Close()" class="py-4">
